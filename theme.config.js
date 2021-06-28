@@ -19,9 +19,9 @@ export default {
       <meta name="og:description" content="ImMuhdFaizul: Legal Policies" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:image" content="https://nextra.vercel.app/og.png" />
-      <meta name="twitter:site:domain" content="nextra.vercel.app" />
-      <meta name="twitter:url" content="https://nextra.vercel.app" />
-      <meta name="og:title" content="Nextra: Next.js static site generator" />
+      <meta name="twitter:site:domain" content="nextra-faizul.vercel.app" />
+      <meta name="twitter:url" content="https://nextra-faizul.vercel.app/" />
+      <meta name="og:title" content="ImMuhdFaizul: Legal Policies" />
       <meta name="og:image" content="https://nextra.vercel.app/og.png" />
       <meta name="apple-mobile-web-app-title" content="Nextra" />
       <link
