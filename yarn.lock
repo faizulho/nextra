@@ -1133,6 +1133,11 @@ graceful-fs@^4.1.2:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.4.tgz#2256bde14d3632958c465ebc96dc467ca07a29fb"
   integrity sha512-WjKPNJF79dtJAVniUlGGWHYGz2jWxT6VhN/4m1NdkbZ2nOsEF+cI1Edgql5zCRhs/VsQYRvrXctxktVXZUkixw==
 
+grapheme-splitter@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/grapheme-splitter/-/grapheme-splitter-1.0.4.tgz#9cf3a665c6247479896834af35cf1dbb4400767e"
+  integrity sha512-bzh50DW9kTPM00T8y4o8vQg89Di9oLJVLW/KaOGIXJWP/iqCN6WKYkbNOF04vFLJhwcpYUh9ydh/+5vpOqV4YQ==
+
 gray-matter@^4.0.2:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/gray-matter/-/gray-matter-4.0.2.tgz#9aa379e3acaf421193fce7d2a28cebd4518ac454"
@@ -1708,10 +1713,10 @@ next@^10.0.8-canary.9:
     vm-browserify "1.1.2"
     watchpack "2.1.1"
 
-nextra-theme-docs@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/nextra-theme-docs/-/nextra-theme-docs-1.1.2.tgz#345117cd9db77f7d76cd448194e8be6adc648828"
-  integrity sha512-mFNWCTgXRfZ6LzaUQORRd3VRD5n4a0nqm3kZt22uNcyJuhuv9apUM0ivslPcTCB//2iRi4KEb+Gh1tjuUfKWbw==
+nextra-theme-docs@^1.1.7:
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/nextra-theme-docs/-/nextra-theme-docs-1.1.7.tgz#f2da363912213d7a2c90cfc97b8ad0cf4d9f727c"
+  integrity sha512-7s/Er3TVS43u//z2DdBOw4NJOtK4dF+s/2K20hf2z/FM2lVajMJG7ZE2LhQF0xNEH8qQTuPw77xGU1YxumsWFA==
   dependencies:
     "@mdx-js/react" "^1.6.16"
     "@reach/skip-nav" "^0.11.2"
@@ -1719,6 +1724,7 @@ nextra-theme-docs@^1.1.2:
     classnames "^2.2.6"
     focus-visible "^5.1.0"
     github-slugger "^1.3.0"
+    grapheme-splitter "^1.0.4"
     intersection-observer "^0.12.0"
     match-sorter "^4.2.0"
     next-themes "^0.0.8"
