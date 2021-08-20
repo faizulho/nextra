@@ -1,65 +1,24 @@
 export default {
-  repository: 'https://github.com/faizulho/nextra',
-  titleSuffix: ' – ImMuhdFaizul',
-  logo: (
-    <>
-      <span className="mr-2 font-extrabold hidden md:inline">ImMuhdFaizul</span>
-      <span className="text-blue-600 font-normal hidden md:inline">
-        Legal Policies
-      </span>
-    </>
-  ),
-  head: (
-    <>
-      <meta name="msapplication-TileColor" content="#0285cc" />
-      <meta name="theme-color" content="#ffffff" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta httpEquiv="Content-Language" content="en" />
-      <meta name="description" content="ImMuhdFaizul: Legal Policies" />
-      <meta name="og:description" content="ImMuhdFaizul: Legal Policies" />
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:image" content="https://nextra.vercel.app/og.png" />
-      <meta name="twitter:site:domain" content="nextra-faizul.vercel.app" />
-      <meta name="twitter:url" content="https://nextra-faizul.vercel.app/" />
-      <meta name="og:title" content="ImMuhdFaizul: Legal Policies" />
-      <meta name="og:image" content="https://nextra.vercel.app/og.png" />
-      <meta name="apple-mobile-web-app-title" content="Nextra" />
-      <link
-        rel="apple-touch-icon"
-        sizes="180x180"
-        href="/apple-icon-180x180.png"
-      />
-      <link
-        rel="icon"
-        type="image/png"
-        sizes="192x192"
-        href="/android-icon-192x192.png"
-      />
-      <link
-        rel="icon"
-        type="image/png"
-        sizes="32x32"
-        href="/favicon-32x32.png"
-      />
-      <link
-        rel="icon"
-        type="image/png"
-        sizes="96x96"
-        href="/favicon-96x96.png"
-      />
-      <link
-        rel="icon"
-        type="image/png"
-        sizes="16x16"
-        href="/favicon-16x16.png"
-      />
-      <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
-    </>
-  ),
-  search: true,
-  prevLinks: true,
+  repository: 'https://github.com/shuding/nextra', // project repo
+  docsRepository: 'https://github.com/shuding/nextra', // docs repo
+  branch: 'master', // branch of docs
+  path: '/', // path of docs
+  titleSuffix: ' – Nextra',
   nextLinks: true,
+  prevLinks: true,
+  search: true,
+  customSearch: null, // customizable, you can use algolia for example
+  darkMode: true,
   footer: true,
-  footerEditOnGitHubLink: true,
-  footerText: <>MIT {new Date().getFullYear()} © Nextra.</>,
+  footerText: `MIT ${new Date().getFullYear()} © Shu Ding.`,
+  footerEditOnGitHubLink: true, // will link to the docs repo
+  logo: <>
+    <svg>...</svg>
+    <span>Next.js Static Site Generator</span>
+  </>,
+  head: <>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Nextra: the next docs builder" />
+    <meta name="og:title" content="Nextra: the next docs builder" />
+  </>
 }
